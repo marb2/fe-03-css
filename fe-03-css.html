@@ -4,20 +4,34 @@
         <style>
             table {
                 border-collapse:collapse;
-                border:1px solid black;
+                max-width:1500px; 
+                min-width:500px;"
             }
             td {
                 
                 text-align:center;
                 width:50px;
                 height:50px;
-                border:1px solid black;
               }
             .sviesi {
                   background:#f3e6e6;
+                  border:5px solid black;
             }
             .tamsi {
                 background:rgb(66, 40, 1);
+                border:5px solid black;
+            }
+            .skaiciai1 {
+                border-left:2px solid black;
+            }
+            .skaiciai2 {
+                border-right:2px solid black;
+            }
+            .raides1 {
+                border-top:2px solid black;
+            }
+            .raides2 {
+                border-bottom:2px solid black;
             }
         </style>
         <meta charset="UTF-8">
@@ -28,19 +42,19 @@
     <body>
         <table>
             <tr>
-                <td></td>
-                <td style="transform: rotate(180deg)">a</td>
-                <td style="transform: rotate(180deg)">b</td>
-                <td style="transform: rotate(180deg)">c</td>
-                <td style="transform: rotate(180deg)">d</td>
-                <td style="transform: rotate(180deg)">e</td>
-                <td style="transform: rotate(180deg)">f</td>
-                <td style="transform: rotate(180deg)">g</td>
-                <td style="transform: rotate(180deg)">h</td>
-                <td></td>
+                <td style="border-top:2px solid black; border-left:2px solid black"></td>
+                <td class="raides1"style="transform: rotate(180deg)">a</td>
+                <td class="raides1"style="transform: rotate(180deg)">b</td>
+                <td class="raides1"style="transform: rotate(180deg)">c</td>
+                <td class="raides1"style="transform: rotate(180deg)">d</td>
+                <td class="raides1"style="transform: rotate(180deg)">e</td>
+                <td class="raides1"style="transform: rotate(180deg)">f</td>
+                <td class="raides1"style="transform: rotate(180deg)">g</td>
+                <td class="raides1"style="transform: rotate(180deg)">h</td>
+                <td style="border-top:2px solid black; border-right:2px solid black"></td>
             </tr>
             <tr>
-                <td style="transform: rotate(-90deg)">8</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">8</td>
                 <td class="sviesi">♜</td>
                 <td class="tamsi">♞</td>
                 <td class="sviesi">♝</td>
@@ -49,10 +63,10 @@
                 <td class="tamsi">♝</td>
                 <td class="sviesi">♞</td>
                 <td class="tamsi">♜</td>
-                <td style="transform: rotate(90deg)">8</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">8</td>
             </tr>
             <tr>
-                <td style="transform: rotate(-90deg)">7</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">7</td>
                 <td class="tamsi">♟</td>
                 <td class="sviesi">♟</td>
                 <td class="tamsi">♟</td>
@@ -61,10 +75,10 @@
                 <td class="sviesi">♟</td>
                 <td class="tamsi">♟</td>
                 <td class="sviesi">♟</td>
-                <td style="transform: rotate(90deg)">7</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">7</td>
             </tr>
             <tr>
-                <td style="transform: rotate(-90deg)">6</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">6</td>
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
@@ -73,10 +87,10 @@
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
-                <td style="transform: rotate(90deg)">6</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">6</td>
             </tr>     
             <tr>
-                <td style="transform: rotate(-90deg)">5</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">5</td>
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
@@ -85,10 +99,10 @@
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
-                <td style="transform: rotate(90deg)">5</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">5</td>
             </tr>     
             <tr>
-                <td style="transform: rotate(-90deg)">4</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">4</td>
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
@@ -97,10 +111,10 @@
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
-                <td style="transform: rotate(90deg)">4</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">4</td>
             </tr>      
             <tr>
-                <td style="transform: rotate(-90deg)">3</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">3</td>
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
@@ -109,10 +123,10 @@
                 <td class="sviesi"></td>
                 <td class="tamsi"></td>
                 <td class="sviesi"></td>
-                <td style="transform: rotate(90deg)">3</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">3</td>
             </tr>  
             <tr>
-                <td style="transform: rotate(-90deg)">2</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">2</td>
                 <td class="sviesi">♙</td>
                 <td class="tamsi">♙</td>
                 <td class="sviesi">♙</td>
@@ -121,10 +135,10 @@
                 <td class="tamsi">♙</td>
                 <td class="sviesi">♙</td>
                 <td class="tamsi">♙</td>
-                <td style="transform: rotate(90deg)">2</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">2</td>
             </tr>        
             <tr>
-                <td style="transform: rotate(-90deg)">1</td>
+                <td class="skaiciai1" style="transform: rotate(-90deg)">1</td>
                 <td class="tamsi">♖</td>
                 <td class="sviesi">♘</td>
                 <td class="tamsi">♗</td>
@@ -133,19 +147,19 @@
                 <td class="sviesi">♗</td>
                 <td class="tamsi">♘</td>
                 <td class="sviesi">♖</td>
-                <td style="transform: rotate(90deg)">1</td>
+                <td class="skaiciai2" style="transform: rotate(90deg)">1</td>
             </tr>        
             <tr>
-                <td></td>
-                <td>a</td>
-                <td>b</td>
-                <td>c</td>
-                <td>d</td>
-                <td>e</td>
-                <td>f</td>
-                <td>g</td>
-                <td>h</td>
-                <td></td>
+                <td style="border-bottom:2px solid black; border-left:2px solid black"></td>
+                <td class="raides2">a</td>
+                <td class="raides2">b</td>
+                <td class="raides2">c</td>
+                <td class="raides2">d</td>
+                <td class="raides2">e</td>
+                <td class="raides2">f</td>
+                <td class="raides2">g</td>
+                <td class="raides2">h</td>
+                <td style="border-bottom:2px solid black; border-right:2px solid black"></td>
             </tr>                       
         </table>
     </body>

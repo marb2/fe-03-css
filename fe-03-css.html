@@ -4,34 +4,43 @@
         <style>
             table {
                 border-collapse:collapse;
-                max-width:1500px; 
-                min-width:500px;"
+                table-layout: auto;
+                width: 98vh;
+                height:98vh;
+                background-image: url("https://image.freepik.com/free-photo/brown-paper-texture-for-background_1373-528.jpg");
+                background-size:100%;
             }
             td {
-                
                 text-align:center;
-                width:50px;
-                height:50px;
-              }
-            .sviesi {
-                  background:#f3e6e6;
-                  border:5px solid black;
+                height:10%;
+                width:10%;
             }
-            .tamsi {
-                background:rgb(66, 40, 1);
-                border:5px solid black;
+            .sviesi { /*sviesus kvadratai*/
+                background-color:#b4a3a3;
+                border:4px solid rgb(32, 28, 28);
             }
-            .skaiciai1 {
+            .tamsi { /*tamsus kvadratai*/
+                background-color:rgb(70, 44, 5);
+                border:4px solid black;
+            }
+            .balta { /*baltos figuros*/
+                color: white;
+            }
+            .skaiciai1 { /*skaiciai kaireje*/
                 border-left:2px solid black;
+                font-style: italic;
             }
-            .skaiciai2 {
+            .skaiciai2 { /*skaiciai desineje*/
                 border-right:2px solid black;
+                font-style: italic;
             }
-            .raides1 {
+            .raides1 { /*raides virsuje*/
                 border-top:2px solid black;
+                font-style: italic;
             }
-            .raides2 {
+            .raides2 { /*raides apacioje*/
                 border-bottom:2px solid black;
+                font-style: italic;
             }
         </style>
         <meta charset="UTF-8">
@@ -43,7 +52,7 @@
         <table>
             <tr>
                 <td style="border-top:2px solid black; border-left:2px solid black"></td>
-                <td class="raides1"style="transform: rotate(180deg)">a</td>
+                <td class="raides1" style="transform: rotate(180deg)">a</td>
                 <td class="raides1"style="transform: rotate(180deg)">b</td>
                 <td class="raides1"style="transform: rotate(180deg)">c</td>
                 <td class="raides1"style="transform: rotate(180deg)">d</td>
@@ -127,26 +136,26 @@
             </tr>  
             <tr>
                 <td class="skaiciai1" style="transform: rotate(-90deg)">2</td>
-                <td class="sviesi">♙</td>
-                <td class="tamsi">♙</td>
-                <td class="sviesi">♙</td>
-                <td class="tamsi">♙</td>
-                <td class="sviesi">♙</td>
-                <td class="tamsi">♙</td>
-                <td class="sviesi">♙</td>
-                <td class="tamsi">♙</td>
+                <td class="sviesi balta">♙</td>
+                <td class="tamsi balta">♙</td>
+                <td class="sviesi balta">♙</td>
+                <td class="tamsi balta">♙</td>
+                <td class="sviesi balta">♙</td>
+                <td class="tamsi balta">♙</td>
+                <td class="sviesi balta">♙</td>
+                <td class="tamsi balta">♙</td>
                 <td class="skaiciai2" style="transform: rotate(90deg)">2</td>
             </tr>        
             <tr>
                 <td class="skaiciai1" style="transform: rotate(-90deg)">1</td>
-                <td class="tamsi">♖</td>
-                <td class="sviesi">♘</td>
-                <td class="tamsi">♗</td>
-                <td class="sviesi">♕</td>
-                <td class="tamsi">♔</td>
-                <td class="sviesi">♗</td>
-                <td class="tamsi">♘</td>
-                <td class="sviesi">♖</td>
+                <td class="tamsi balta">♖</td>
+                <td class="sviesi balta">♘</td>
+                <td class="tamsi balta">♗</td>
+                <td class="sviesi balta">♕</td>
+                <td class="tamsi balta">♔</td>
+                <td class="sviesi balta">♗</td>
+                <td class="tamsi balta">♘</td>
+                <td class="sviesi balta">♖</td>
                 <td class="skaiciai2" style="transform: rotate(90deg)">1</td>
             </tr>        
             <tr>
